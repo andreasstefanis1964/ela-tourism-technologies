@@ -1051,7 +1051,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "με την χρήση έξυπνων τεχνολογιών και εικαστικών σχεδιασμών για κινητές συσκευές και για προώθηση μέσω του αλγόριθμου της google.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">READ MORE</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> <a data-app-btn=\"true\" class=\"btn display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">από € 20/μήνα</a>",
                 "textTitle": "Κατασκευή ιστοσελίδων"
               },
               {
@@ -1068,9 +1068,10 @@
                 "title": "Solutions For Your Business",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">READ MORE</a> ",
-                "overlayOpacity": "0.6"
+                "text": "για τουριστικούς προορισμούς, για επενδυτές που ενδιαφέρονται να προβάλλουν τις τουριστικές τους επιχειρήσεις με αποτελεσματικό τρόπο.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> ",
+                "overlayOpacity": "0.6",
+                "textTitle": "Ανάπτυξη Στρατηγικών"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-9.jpg",
@@ -1087,8 +1088,8 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "για ξενοδοχεία, ιδιοκτήτες &amp; διαχειριστές BnB παραθεριστικών καταλυμάτων βραγχυχρόνιας μίσθωσης, για τουριστικούς προορισμούς.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">READ MORE</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
-                "textTitle": "Ψηφιακές τεχνολογίες"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+                "textTitle": "Cloud τεχνολογίες Αll in One"
               }
             ]
           }
