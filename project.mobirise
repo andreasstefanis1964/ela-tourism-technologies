@@ -1050,8 +1050,9 @@
                 "title": "Innovative Technology",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dui enim, pharetra at auctor vitae, mollis nec risus. Phasellus sagittis lectus at suscipit pulvinar.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">READ MORE</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>"
+                "text": "με την χρήση έξυπνων τεχνολογιών και εικαστικών σχεδιασμών για κινητές συσκευές και για προώθηση μέσω του αλγόριθμου της google.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">READ MORE</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+                "textTitle": "Κατασκευή ιστοσελίδων"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3.jpg",
