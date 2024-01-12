@@ -1066,7 +1066,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -1102,8 +1102,8 @@
                 "textTitle": "Cloud τεχνολογίες Αll in One"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/beautiful-view-main-street-larnaca-phinikoudes-beach-cyprus-2000x1333.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -1115,7 +1115,7 @@
                 "title": "Solutions For Your Business",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "Διαχειριζόμαστε το ακίνητό σας online 365, 24/7! Ανάλογα με τις εξατομικευμένες ανάγκες και επιθυμίες σας.",
+                "text": "Αυξάνουμε τα κέρδη σας με κρατήσεις μέσω πόρταλ με ταυτόγχρονη διαχείριση με επαγγελματίες συνεργάτες, ώστε το ακίνητό σας να διατηρείται πάντα σε άρτια κατάσταση, και να είναι πάντα έτοιμο να φιλοξενήσει τους επόμενους επισκέπτες.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> ",
                 "overlayOpacity": "0.6",
                 "textTitle": "Ολοκληρωμένη διαδικτυακή διαχείριση πωλήσεων του ακινήτου σας στην Κύπρο"
