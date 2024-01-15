@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -1047,6 +1047,24 @@
             "slides__showBullets": true,
             "slides": [
               {
+                "image": "@PROJECT_PATH@/assets/images/mbr-9.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Multifunctional",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "για ξενοδοχεία, ιδιοκτήτες &amp; διαχειριστές BnB παραθεριστικών καταλυμάτων βραγχυχρόνιας μίσθωσης, για τουριστικούς προορισμούς.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+                "textTitle": "Cloud τεχνολογίες Αll in One"
+              },
+              {
                 "image": "@PROJECT_PATH@/assets/images/background110.jpg",
                 "active": false,
                 "showButtons": true,
@@ -1063,6 +1081,25 @@
                 "text": "με την χρήση έξυπνων τεχνολογιών και εικαστικών σχεδιασμών για κινητές συσκευές και για προώθηση μέσω του αλγόριθμου της google.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> <a data-app-btn=\"true\" class=\"btn display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">από € 20/μήνα</a>",
                 "textTitle": "Κατασκευή ιστοσελίδων"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/hotel-almyra-coastal-walk-paphos-cyprus-2000x1331.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Solutions For Your Business",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Αυξάνουμε τα κέρδη σας με κρατήσεις μέσω πόρταλ αναλαμβάνοντας εάν το επιθυμείτε την διαχείριση σε συνεργασία με ντόπιους επαγγελματίες, ώστε το ακίνητό σας να διατηρείται πάντα σε άρτια κατάσταση, και να είναι πάντα έτοιμο να φιλοξενήσει τους επόμενους επισκέπτες.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"page1.html#slider01-1\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> ",
+                "overlayOpacity": "0.6",
+                "textTitle": "Ολοκληρωμένη διαχείριση του ακινήτου σας στην Κύπρο"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-3.jpg",
@@ -1082,43 +1119,6 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> ",
                 "overlayOpacity": "0.6",
                 "textTitle": "Πακέτα Διαφημιστικής Προβολής &amp; Προώθησης"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-9.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Multifunctional",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "για ξενοδοχεία, ιδιοκτήτες &amp; διαχειριστές BnB παραθεριστικών καταλυμάτων βραγχυχρόνιας μίσθωσης, για τουριστικούς προορισμούς.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
-                "textTitle": "Cloud τεχνολογίες Αll in One"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/hotel-almyra-coastal-walk-paphos-cyprus-2000x1331.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Solutions For Your Business",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Αυξάνουμε τα κέρδη σας με κρατήσεις μέσω πόρταλ αναλαμβάνοντας εάν το επιθυμείτε την διαχείριση σε συνεργασία με ντόπιους επαγγελματίες, ώστε το ακίνητό σας να διατηρείται πάντα σε άρτια κατάσταση, και να είναι πάντα έτοιμο να φιλοξενήσει τους επόμενους επισκέπτες.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"page1.html#slider01-1\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> ",
-                "overlayOpacity": "0.6",
-                "textTitle": "Ολοκληρωμένη διαχείριση του ακινήτου σας στην Κύπρο"
               }
             ]
           }
