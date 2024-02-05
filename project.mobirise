@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "rent-a-traditional-house-in-cyprus.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -5456,10 +5456,10 @@
         }
       ]
     },
-    "page3.html": {
+    "rent-a-traditional-house-in-cyprus.html": {
       "settings": {
-        "title": "Rent-A-House-in-Cyprus",
-        "meta_descr": "",
+        "title": "Rent-A-Traditional-House-in-Cyprus",
+        "meta_descr": "Rent-A-Traditional-House-in-Cyprus",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
