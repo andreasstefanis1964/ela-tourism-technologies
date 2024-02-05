@@ -5851,6 +5851,66 @@ section.lazy-placeholder:after {
   position: absolute;
   top: 0;
 }
+.cid-u3p6hEUmEU {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/background3.webp");
+  background-size: cover;
+}
+.cid-u3p6hEUmEU .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-u3p6hEUmEU h4 {
+  text-align: center;
+}
+.cid-u3p6hEUmEU p {
+  text-align: center;
+}
+.cid-u3p6hEUmEU .card-img span {
+  font-size: 96px;
+  color: #149dcc;
+}
+.cid-u3p6hEUmEU .mbr-iconfont {
+  transition: all 0.3s;
+  color: #ffffff !important;
+  font-size: 5rem !important;
+}
+.cid-u3p6hEUmEU .card {
+  transition: all 0.3s;
+  padding: 2rem!important;
+}
+.cid-u3p6hEUmEU .card:hover .card-title {
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cid-u3p6hEUmEU .card-title {
+  transition: color 0.3s;
+}
+.cid-u3p6hEUmEU .card-title,
+.cid-u3p6hEUmEU .card-img {
+  color: #ffffff;
+}
+@media (max-width: 576px) {
+  .cid-u3p6hEUmEU .card {
+    padding: 2rem 0rem 0rem 0rem!important;
+  }
+}
+.cid-u3p6hEUmEU .card-img {
+  width: auto;
+}
+.cid-u3p6hEUmEU .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u3p6hEUmEU .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 .cid-u3nt2mlsfb {
   padding-top: 90px;
   padding-bottom: 90px;
