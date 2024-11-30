@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -1968,24 +1968,6 @@
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "eb-chats-widget",
-          "_isSecondary": true,
-          "_styles": {},
-          "_name": "eb-chats-widget",
-          "_sourceTheme": "techm4",
-          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
-          "_cid": "u32BnoiKwE",
-          "_anchor": "eb-chats-widget-y",
-          "safe": {
-            "id": 21336,
-            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxAyG\"></div>"
-          },
-          "_protectedParams": [],
-          "_global": false,
-          "_once": "chat",
           "_params": {}
         },
         {
