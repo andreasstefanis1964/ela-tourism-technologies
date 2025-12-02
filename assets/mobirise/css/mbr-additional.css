@@ -9530,83 +9530,153 @@ section.lazy-placeholder:after {
 .cid-v4eu3BWJZw DIV {
   color: #57468b;
 }
-.cid-v4eu3C6JzA {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.cid-v4eZViOoEL {
+  padding-top: 180px;
+  padding-bottom: 180px;
   background-color: #f2f6ff;
   position: relative;
   overflow: hidden;
 }
-.cid-v4eu3C6JzA svg {
+.cid-v4eZViOoEL .svg1 {
   position: absolute;
-  bottom: 4rem;
-  left: 50%;
-  transform: translate(-50%) scale(2, 1.2);
-  animation: wave 5s ease-in-out infinite;
+  bottom: 0rem;
+  right: -45%;
+  transform: scale(1.3);
 }
-@keyframes line {
-  from {
-    transform: translateY(4px);
-  }
-  50% {
-    transform: translateY(-4px);
-  }
-  to {
-    transform: translateY(4px);
-  }
-}
-@keyframes wave {
-  from {
-    transform: rotate(-0.2deg) translate(-50%) scale(2, 1.2);
-  }
-  50% {
-    transform: rotate(0.2deg) translate(-50%) scale(2.1, 1.3);
-  }
-  to {
-    transform: rotate(-0.2deg) translate(-50%) scale(2, 1.2);
-  }
-}
-.cid-v4eu3C6JzA .mbr-text,
-.cid-v4eu3C6JzA .mbr-section-btn {
-  color: #716c80;
-}
-.cid-v4eu3C6JzA #e12_areaS3 {
+.cid-v4eZViOoEL #e1_circle,
+.cid-v4eZViOoEL #e3_circle,
+.cid-v4eZViOoEL #e4_circle,
+.cid-v4eZViOoEL #e5_circle {
   fill: #e1e8ff !important;
 }
-.cid-v4eu3C6JzA #e19_areaS3 {
+.cid-v4eZViOoEL #e6_circle {
   fill: #bfceff !important;
 }
-.cid-v4eu3C6JzA H1 {
+.cid-v4eZViOoEL .mbr-text {
+  color: #716c80;
+}
+.cid-v4eZViOoEL h4 {
+  margin: 0;
+}
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(10px) rotate(-360deg);
+  }
+}
+@keyframes rev {
+  from {
+    transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg) translateX(10px) rotate(360deg);
+  }
+}
+.cid-v4eZViOoEL .card-img span {
+  font-size: 96px;
+  color: #149dcc;
+  padding: 0.4rem;
+  margin-right: 1.5rem;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+}
+.cid-v4eZViOoEL .card-img .img1 {
+  background-color: #bfceff;
+}
+.cid-v4eZViOoEL .mbr-iconfont {
+  transition: all 0.3s;
+  color: #ffffff !important;
+  font-size: 1rem !important;
+}
+.cid-v4eZViOoEL .round {
+  border-radius: 100%;
+  position: absolute;
+  background-color: #e1e8ff;
+  animation: orbit 4s linear infinite;
+}
+.cid-v4eZViOoEL .rev {
+  animation: rev 4s linear infinite;
+}
+.cid-v4eZViOoEL .round1 {
+  width: 50px;
+  height: 50px;
+  right: 15%;
+  top: 4%;
+}
+.cid-v4eZViOoEL .round2 {
+  width: 80px;
+  height: 80px;
+  right: 25%;
+  top: 8%;
+}
+.cid-v4eZViOoEL .round3 {
+  width: 40px;
+  height: 40px;
+  right: 30%;
+  bottom: 8%;
+}
+.cid-v4eZViOoEL .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.cid-v4eZViOoEL .card-title,
+.cid-v4eZViOoEL .card-img {
   color: #57468b;
 }
-.cid-v4eu3C6JzA img {
-  width: 70%;
+.cid-v4eZViOoEL img {
+  width: 100%;
   border-radius: 10px;
-  animation: line 4s ease-in-out infinite;
   box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
 }
-.cid-v4eu3C6JzA .box {
-  width: 95%;
-  height: 90%;
-  opacity: 0.5;
-  background-color: #ffffff;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 0.5rem;
-}
 @media (max-width: 1200px) {
-  .cid-v4eu3C6JzA .box {
-    top: 2%;
-    width: 97%;
-    height: 96%;
+  .cid-v4eZViOoEL svg {
+    right: -70% !important;
+  }
+}
+@media (max-width: 992px) {
+  .cid-v4eZViOoEL img {
+    margin-top: 1rem;
+  }
+  .cid-v4eZViOoEL svg {
+    right: -45% !important;
   }
 }
 @media (max-width: 576px) {
-  .cid-v4eu3C6JzA img {
-    width: 100%;
+  .cid-v4eZViOoEL .item:hover {
+    box-shadow: none;
+    transform: none;
+    background-color: transparent;
   }
+  .cid-v4eZViOoEL svg {
+    bottom: -3rem !important;
+  }
+  .cid-v4eZViOoEL .round1 {
+    display: none;
+  }
+}
+.cid-v4eZViOoEL .title {
+  line-height: 1.3;
+  color: #57468b;
+}
+.cid-v4eZViOoEL .card-img {
+  width: auto;
+}
+.cid-v4eZViOoEL .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-v4eZViOoEL .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .cid-v4eu3CdUpO {
   padding-top: 45px;
