@@ -45,7 +45,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 99,
+    "uniqCompNum": 103,
     "versionPublish": "6.1.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/ela-tourism-technologies.webp",
@@ -10782,7 +10782,7 @@
             }
           },
           "_name": "features012",
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Main Title\" name=\"showmainTitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h4 class=\"main-title pb-5 align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\" data-app-selector=\".main-title\">Modern Technologies</h4>\n\n        <div class=\"row justify-content-center\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://secret-deals-hotels.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto202025-12-0220um2016.59.05-506x313.webp\" alt></a>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">secret-deals-hotels.com</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Προσεγγίστε άμεσα ταξιδιώτες που ψάχνουν για «secret deals» και ειδικές προσφορές σε ξενοδοχεία στην Ελλάδα.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://ela-greece.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto202025-12-0220um2016.58.22-506x311.webp\" alt></a>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">ela-greece.com</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Το ξενοδοχείο σας θα εμφανίζεται μπροστά σε ταξιδιώτες από τις γερμανόφωνες χώρες την ακριβή στιγμή που αναζητούν διακοπές στην Ελλάδα.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-506x337.webp\" alt>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Διαφήμιση μέσω κοινωνικών δικτύων</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Εκμεταλλευτείτε το digital performance marketing μας για να προβληθείτε στις γερμανόφωνες αγορές με στοχευμένες διαφημίσεις και αποκλειστικές προσφορές.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/website-templates2.webp\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Προβολή μέσω Google, youtube</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Στοχευμένη διαφήμιση σε συγκεκριμένες ομάδες-στόχους για ξενοδοχεία, γκρουπ ξενοδοχείων και τουριστικών προορισμών</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Main Title\" name=\"showmainTitle\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Link\" name=\"showLink\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h4 class=\"main-title pb-5 align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\" data-app-selector=\".main-title\">Modern Technologies</h4>\n\n        <div class=\"row justify-content-center\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://secret-deals-hotels.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto202025-12-0220um2016.59.05-506x313.webp\" alt></a>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">secret-deals-hotels.com</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Προσεγγίστε άμεσα ταξιδιώτες που ψάχνουν για «secret deals» και ειδικές προσφορές σε ξενοδοχεία στην Ελλάδα.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"https://ela-greece.com\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto202025-12-0220um2016.58.22-506x311.webp\" alt></a>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">ela-greece.com</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Το ξενοδοχείο σας θα εμφανίζεται μπροστά σε ταξιδιώτες από τις γερμανόφωνες χώρες ακριβώς την στιγμή που αναζητούν διακοπές στην Ελλάδα.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-506x337.webp\" alt>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Διαφήμιση μέσω κοινωνικών δικτύων</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Εκμεταλλευτείτε το digital performance marketing μας για να προβληθείτε στις γερμανόφωνες αγορές με στοχευμένες διαφημίσεις και αποκλειστικές προσφορές.</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/mbr-1-506x337.webp\" alt>\n                    </div>\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Προβολή μέσω Google, youtube</h4>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Στοχευμένη διαφήμιση σε συγκεκριμένες ομάδες-στόχους για ξενοδοχεία, γκρουπ ξενοδοχείων και τουριστικών προορισμών</p>\n\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showLink\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-info-outline\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>ΔΙΑΒΑΣΤΕ ΕΔΩ</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_sourceTheme": "techm4",
           "_cid": "v4eu3BWJZw",
           "_anchor": "features012-2g",
@@ -10790,6 +10790,208 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_name": "content10",
+          "_sourceTheme": "churchm5",
+          "_customHTML": "<section class=\"content10 churchm5\" group=\"List\" plugins=\"mbr-switch-arrow, mobirise-icons\"\r\n         mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\r\n\r\n    <mbr-parameters>\r\n        <header>Size</header>\r\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\r\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\r\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\"\r\n               condition=\"fullScreen == false\">\r\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\"\r\n               condition=\"fullScreen == false\">\r\n        <header>Show/Hide</header>\r\n        <select title=\"Amount\" name=\"cardAmount\">\r\n            <option value=\"1\">1</option>\r\n            <option value=\"2\">2</option>\r\n            <option value=\"3\">3</option>\r\n            <option value=\"4\">4</option>\r\n            <option value=\"5\">5</option>\r\n            <option value=\"6\" selected>6</option>\r\n        </select>\r\n        <input type=\"color\" title=\"Border Color\" value=\"#263652\" name=\"border\" selected>\r\n        <input type=\"color\" title=\"Active Color\" value=\"#D17756\" name=\"active\" selected>\r\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\r\n        <input type=\"checkbox\" title=\"Main Button\" name=\"showMainButton\" checked>\r\n        <header>Background</header>\r\n        <fieldset type=\"background\" name=\"bg\" parallax>\r\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/churchm5/components/_images/background1.jpg\" parallax>\r\n            <input type=\"color\" title=\"Color\" value=\"#fdfcfa\" selected>\r\n        </fieldset>\r\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\r\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/churchm5/components/_images/background1.jpg\" name=\"fallBackImage\"\r\n               condition=\"bg.type === 'video'\">\r\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\r\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\"\r\n               condition=\"overlay && bg.type !== 'color'\">\r\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\"\r\n               condition=\"overlay && bg.type !== 'color'\">\r\n    </mbr-parameters>\r\n\r\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\r\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\"\r\n         mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\r\n    </div>\r\n\r\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\r\n        <div class=\"row\">\r\n            <div class=\"col-12\">\r\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\"\r\n                     aria-multiselectable=\"true\">\r\n                    <div class=\"card\">\r\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\r\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core\r\n                               href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\r\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\"\r\n                                    data-app-selector=\".panel-title-edit, .mbr-iconfont\">\r\n                                    <b>What is the religious center in a church?</b>\r\n                                </h4>\r\n                                <span class=\"sign mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\r\n                            </a>\r\n                        </div>\r\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\"\r\n                             aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\r\n                            <div class=\"panel-body\">\r\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\"\r\n                                   data-app-selector=\".panel-text, .mbr-section-btn\">\r\n                                    The religious center in a church is typically the altar, which is the focal point of\r\n                                    the church and the place where the most important religious ceremonies take place.\r\n                                </p>\r\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\r\n                                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\r\n                                        READ MORE\r\n                                    </a>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"card\" mbr-if=\"cardAmount > 1\">\r\n                        <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\r\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core\r\n                               href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\r\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\"\r\n                                    data-app-selector=\".panel-title-edit, .mbr-iconfont\">\r\n                                    <b>What is the significance of the religious center in a church?</b>\r\n                                </h4>\r\n                                <span class=\"sign mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\r\n                            </a>\r\n                        </div>\r\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\"\r\n                             aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\r\n                            <div class=\"panel-body\">\r\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\"\r\n                                   data-app-selector=\".panel-text, .mbr-section-btn\">\r\n                                    The religious center is the symbolic representation of the presence of God in the\r\n                                    church. It is also a physical representation of the importance of religious\r\n                                    ceremonies, such as the Eucharist.\r\n                                </p>\r\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\r\n                                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\r\n                                        READ MORE\r\n                                    </a>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"card\" mbr-if=\"cardAmount > 2\">\r\n                        <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\r\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core\r\n                               href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\r\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\"\r\n                                    data-app-selector=\".panel-title-edit, .mbr-iconfont\">\r\n                                    <b>What is typically found at the religious center in a church?</b>\r\n                                </h4>\r\n                                <span class=\"sign mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\r\n                            </a>\r\n                        </div>\r\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\"\r\n                             aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\r\n                            <div class=\"panel-body\">\r\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\"\r\n                                   data-app-selector=\".panel-text, .mbr-section-btn\">\r\n                                    The religious center in a church usually contains an altar, a crucifix or cross,\r\n                                    candles, and sometimes statues or images of saints or religious figures.\r\n                                </p>\r\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\r\n                                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\r\n                                        READ MORE\r\n                                    </a>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"card\" mbr-if=\"cardAmount > 3\">\r\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\r\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core\r\n                               href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\r\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\"\r\n                                    data-app-selector=\".panel-title-edit, .mbr-iconfont\">\r\n                                    <b>Who is allowed to approach the religious center in a church?</b>\r\n                                </h4>\r\n                                <span class=\"sign mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\r\n                            </a>\r\n                        </div>\r\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\"\r\n                             aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\r\n                            <div class=\"panel-body\">\r\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\"\r\n                                   data-app-selector=\".panel-text, .mbr-section-btn\">\r\n                                    Typically, only authorized members of the clergy are allowed to approach the\r\n                                    religious center in a church. However, laypeople may be allowed to approach the\r\n                                    altar for specific reasons, such as receiving Communion or participating in a\r\n                                    wedding or baptism ceremony.\r\n                                </p>\r\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\r\n                                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\r\n                                        READ MORE\r\n                                    </a>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"card\" mbr-if=\"cardAmount > 4\">\r\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\r\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core\r\n                               href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\r\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\"\r\n                                    data-app-selector=\".panel-title-edit, .mbr-iconfont\">\r\n                                    <b>Can people touch or handle the items at the religious center in a church?</b>\r\n                                </h4>\r\n                                <span class=\"sign mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\r\n                            </a>\r\n                        </div>\r\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\"\r\n                             aria-labelledby=\"headingFive\" data-parent=\"#accordion\">\r\n                            <div class=\"panel-body\">\r\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\"\r\n                                   data-app-selector=\".panel-text, .mbr-section-btn\">\r\n                                    It depends on the specific traditions of the church. Some churches allow laypeople\r\n                                    to handle certain items at the religious center, such as candles or the Communion\r\n                                    cup. However, other churches may require that only clergy members handle these\r\n                                    items.\r\n                                </p>\r\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\r\n                                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\r\n                                        READ MORE\r\n                                    </a>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"card\" mbr-if=\"cardAmount > 5\">\r\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\r\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-core\r\n                               href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\r\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\"\r\n                                    data-app-selector=\".panel-title-edit, .mbr-iconfont\">\r\n                                    <b>Is it appropriate to take pictures at the religious center in a church?</b>\r\n                                </h4>\r\n                                <span class=\"sign mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\r\n                            </a>\r\n                        </div>\r\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\"\r\n                             aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\r\n                            <div class=\"panel-body\">\r\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\"\r\n                                   data-app-selector=\".panel-text, .mbr-section-btn\">\r\n                                    It depends on the specific traditions of the church. Some churches may allow\r\n                                    photography at the religious center, while others may prohibit it. It is always best\r\n                                    to ask permission before taking pictures in a church.\r\n                                </p>\r\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\r\n                                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                                        <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\"></span>\r\n                                        READ MORE\r\n                                    </a>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn-main\" mbr-if=\"showMainButton\">\r\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\r\n                        VIEW MORE\r\n                    </a>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0",
+                "@media (max-width: 992px)": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 992px)": {
+                "padding": "0"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".panel-group": {
+              ".card": {
+                "padding": "50px 160px",
+                "border-bottom": "1px solid @border",
+                "border-radius": "0",
+                "&:first-child": {
+                  "border-top": "1px solid @border"
+                },
+                "@media (max-width: 992px)": {
+                  "padding": "20px 16px"
+                },
+                ".card-header": {
+                  "padding": "0",
+                  "background-color": "transparent",
+                  "border": "none",
+                  ".panel-title": {
+                    "border": "none",
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-items": "center",
+                    ".panel-title-edit": {
+                      "margin-bottom": "0"
+                    },
+                    ".mbr-iconfont": {
+                      "margin-left": "10px",
+                      "font-size": "24px",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    "&:not(.collapsed)": {
+                      ".mbr-iconfont": {
+                        "transform": "rotate(180deg)",
+                        "color": "@active"
+                      }
+                    }
+                  }
+                },
+                ".panel-collapse": {
+                  ".panel-body": {
+                    "padding": "16px 0 0 0",
+                    ".panel-text": {
+                      "margin-bottom": "0"
+                    },
+                    ".mbr-section-btn": {
+                      "margin-top": "30px"
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn-main": {
+              "margin-top": "90px",
+              ".btn": {
+                "border-bottom": "2px solid @border !important"
+              },
+              "@media (max-width: 992px)": {
+                "margin-top": "50px"
+              },
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#263652"
+            },
+            ".panel-title-edit, .mbr-iconfont": {
+              "color": "#263652"
+            },
+            ".panel-text": {
+              "color": "#263652"
+            }
+          },
+          "_cid": "v4gby38Lt9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-2s"
+        },
+        {
+          "_name": "list3",
+          "_sourceTheme": "refreshm5",
+          "_customHTML": "<section class=\"list3\" group=\"List\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked=\"\">\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" name=\"card\" title=\"Card\" value=\"#F0F4FF\">\n        <input type=\"color\" name=\"iconColor\" title=\"Icon\" value=\"#6870d1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#FFFFFF\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    Stages\n                </h2>\n                <div class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                    <ol>\n                        <li><b>Clean & polish sinks</b><p>You don't have to code to create your own site. Select one of available themes in the Mobirise sitebuilder.</p></li>\n                        <li><b>Disinfect & clean toilets</b><p>All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required.</p></li>\n                        <li><b>Disinfect & clean showers/bathtubs</b><p>Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.</p></li>\n                        <li><b>Wipe mirrors</b><p>Select the theme that suits you. Each theme in the Mobirise site builder contains a set of unique blocks.</p></li>\n                    </ol>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".container": {
+              "padding": "0 5%"
+            },
+            ".counter-container": {
+              "ol": {
+                "margin-bottom": "0",
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "center",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "position": "relative",
+                    "background": "@card",
+                    "width": "450px",
+                    "margin-bottom": "2rem",
+                    "padding": "2.5rem",
+                    "border-radius": "15px",
+                    "@media (max-width: 768px)": {
+                      "width": "auto"
+                    },
+                    "p": {
+                      "margin": ".5rem 0 0 0"
+                    },
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-50px",
+                      "top": "40%",
+                      "margin-top": "0",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@iconColor)",
+                      "background": "@iconColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "display": "flex",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "@media (max-width: 768px)": {
+                        "left": "-45px"
+                      },
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "4.5rem",
+              "color": "#6870d1",
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#3a3e5e"
+            }
+          },
+          "_cid": "v4gc1hMeR3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "list3-2t"
         },
         {
           "alias": false,
