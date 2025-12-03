@@ -10621,7 +10621,7 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/development-performance-self-improvement-ratings-icon-2000x1462.webp",
                 "active": true,
-                "showButtons": false,
+                "showButtons": true,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
@@ -10632,8 +10632,8 @@
                 "title": "Multifunctional",
                 "overlay": true,
                 "contentAlign": "right",
-                "text": "Ανακαλύψτε πώς το ξενοδοχείο σας μπορεί να προσελκύσει περισσότερους επισκέπτες από τη Γερμανία, Αυστρία και Ελβετία μέσω στοχευμένων καμπανιών performance marketing στην πλατφόρμα secret-deals-hotels.com και ela-greece",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">ΔΙΑΒΑΣΤΕ ΕΔΩ</a> <a data-app-btn=\"true\" class=\"btn btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobiri.se\" data-toolbar=\"-mbrBtnMove\">GET STARTED</a>",
+                "text": "Ανακαλύψτε πώς το ξενοδοχείο σας μπορεί να προσελκύσει περισσότερους επισκέπτες από τη Γερμανία, Αυστρία και Ελβετία μέσω στοχευμένων καμπανιών performance marketing στις πλατφόρμες κρατήσεων",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://secret-deals-hotels.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">secret-deals-hotels.com</a> <a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"https://ela-greece.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ela-greece.com</a>",
                 "textTitle": "Performance Marketing",
                 "overlayColor": "#3d549a"
               }
